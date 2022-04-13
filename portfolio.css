@@ -9,3 +9,23 @@ body {
  h1, h2, h3, h4, p{
     color: rgb(255, 255, 255);
   }
+
+
+/* MARGIN */
+.big-container {
+  margin: 1rem;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-options {
+  display: flex;
+}
+
+.image-background {
+  width: 100%;
+}
