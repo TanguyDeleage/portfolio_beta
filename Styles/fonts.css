@@ -23,3 +23,12 @@ li {
   list-style-type: none;
   margin-left: -0.5rem;
 }
+
+
+/* SIZE */
+
+/* Sur la home page, présentation */
+
+.je-suis, .je-travail > h1 {
+  font-size: 2.5rem;
+}
