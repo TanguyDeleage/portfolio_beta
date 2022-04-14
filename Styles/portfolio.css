@@ -8,7 +8,7 @@
 
 /* MARGIN */
 .big-container {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 0rem 1rem;
 }
 
 .intro {
@@ -29,13 +29,14 @@
   background-image: url("https://images.unsplash.com/photo-1497170675097-81fc06e915da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 85vh;
 }
 
 .projects {
   display: flex;
   justify-content: space-between;
   height: 97vh;
+  flex-wrap: wrap;
 }
 
 .project-content > .project-picture {
@@ -49,9 +50,15 @@
   height: 91vh;
 }
 
+.bot {
+  height: 82vh;
+}
+
 .skills {
   display: flex;
   justify-content: space-between;
+  margin-top: 4rem;
+  flex-wrap: wrap;
 }
 
 .skills-text {
@@ -61,6 +68,8 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .project-title {
@@ -71,11 +80,31 @@
   text-align: center;
 }
 
-.skills-description {
-  text-align: left;
-}
 
 .skills-section {
-  height: 50vh;
+  height: 36vh;
   width: 50vh;
+  border-radius: 0.3rem;
+  text-align: justify;
 }
+
+.section-title {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.about {
+  margin-top: 18rem;
+}
+
+/* .management {
+  background-color: rgb(245, 172, 17);
+}
+
+.tech {
+  background-color: #5C95FF;
+}
+
+.design {
+  background-color: #F87575;
+} */

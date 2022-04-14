@@ -15,3 +15,11 @@ a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
+
+li {
+  color: rgb(150, 150, 150);
+  font-family: 'Poppins';
+  list-style-type: none;
+  margin-left: -0.5rem;
+}
