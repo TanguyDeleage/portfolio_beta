@@ -2,7 +2,6 @@
 
 
 
-
 /* COULEUR DE BACKGROUND */
 body {
   background-color: rgb(50, 50, 50);
@@ -95,4 +94,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
+}
+
+.project-title {
+  text-align: center;
 }
