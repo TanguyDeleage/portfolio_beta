@@ -84,6 +84,7 @@ body {
 
 .skills {
   display: flex;
+  justify-content: space-between;
 }
 
 .skills-text {
@@ -98,4 +99,13 @@ body {
 
 .project-title {
   text-align: center;
+}
+
+.skills-title, .skills-description {
+  text-align: center;
+}
+
+.skills-section {
+  height: 50vh;
+  width: 50vh;
 }
