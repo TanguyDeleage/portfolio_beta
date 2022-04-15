@@ -6,3 +6,25 @@
 .project-page-title {
   margin-bottom: 5rem;
 }
+
+.project{
+transition: transform .2s;
+}
+.project:hover {
+  transform: scale(1.1);
+}
+
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  height: 97vh;
+  flex-wrap: wrap;
+}
+
+.project-content>.project-picture {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
