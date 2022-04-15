@@ -28,3 +28,16 @@ transition: transform .2s;
   object-fit: cover;
   border-radius: 0.3rem;
 }
+
+.project-section {
+  margin-bottom: 5rem;
+}
+
+.project-page-title > h1 {
+  text-align: center;
+}
+
+.matematch-intro {
+  display: flex;
+  justify-content: space-evenly;
+}
