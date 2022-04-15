@@ -17,8 +17,14 @@ a {
 }
 
 
-li {
+.skills-description li {
   color: rgb(150, 150, 150);
+  font-family: 'Poppins';
+  list-style-type: none;
+  margin-left: -0.5rem;
+}
+
+.skills-title li {
   font-family: 'Poppins';
   list-style-type: none;
   margin-left: -0.5rem;

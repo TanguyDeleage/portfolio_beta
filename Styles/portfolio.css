@@ -77,7 +77,7 @@
 }
 
 .skills-title {
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -96,15 +96,3 @@
 .about {
   margin-top: 18rem;
 }
-
-/* .management {
-  background-color: rgb(245, 172, 17);
-}
-
-.tech {
-  background-color: #5C95FF;
-}
-
-.design {
-  background-color: #F87575;
-} */
