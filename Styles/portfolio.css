@@ -34,7 +34,7 @@
 
 
 .vue {
-  height: 91vh;
+  height: 100vh;
 }
 
 .bot {
@@ -80,6 +80,14 @@
   margin-top: 5rem;
 }
 
-.about {
-  margin-top: 18rem;
+#HOME {
+  scroll-margin-top: 10rem;
+}
+
+#PROJECTS {
+  scroll-margin-top: 7rem;
+}
+
+#ABOUT {
+  scroll-margin-top: -10rem;
 }
