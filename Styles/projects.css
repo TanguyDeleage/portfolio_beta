@@ -3,9 +3,6 @@
   height: 40vh;
 }
 
-.project-page-title {
-  margin-bottom: 5rem;
-}
 
 .project{
 transition: transform .2s;
@@ -30,17 +27,59 @@ transition: transform .2s;
 
 .project-page-title > h1 {
   text-align: center;
+  margin: 0;
+}
+
+.background-projects {
+  background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url("/Photos/matematch-background.avif");
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .matematch-intro {
   display: flex;
-  justify-content: space-evenly;
+  text-align: justify;
+  justify-content: center;
 }
 
-.background-projects {
-  background-image: url("/Photos/Matematch.avif");
-  background-size: cover;
-  /* CALC TO DO */
-  background-position: calc();
-  height: 30vh;
+
+.matematch-intro-text {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 60rem;
+}
+
+.project-section-contents {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+
+.project-section-content {
+  width: 50%;
+  height:35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section-content > img {
+  width: 95%;
+}
+
+.right {
+  background-color: #E3A96D;
+}
+
+.left {
+  background-color: #FDF7F1;
+}
+
+.left > p {
+  color: #E3A96D;
+  padding: 6rem;
 }

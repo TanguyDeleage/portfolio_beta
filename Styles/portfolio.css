@@ -11,6 +11,10 @@
   margin: 0rem 1rem 0rem 1rem;
 }
 
+body {
+  margin: 0;
+}
+
 .intro {
   padding: 3rem;
 }
