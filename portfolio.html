@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./Styles/portfolio.css">
   </head>
 
-  <body>
-    <div class="big-container">
+  <body style="margin: 0px;">
+
 
 <!-- NAVBAR -->
-      <div id="HOME">
+      <!-- <div id="HOME">
       </div>
       <div class="header">
         <div class="logo-name">
@@ -42,82 +42,114 @@
             <a href="#ABOUT">About</a>
           </div>
         </div>
+      </div> -->
+
+
+
+      <!-- TEST NAVBAR -->
+    <div class="navbar_container" >
+      <div class="brand">
+        <div class="logo">
+          <h1><a href="#HOME">Tanguy DELEAGE</a></h1>
+        </div>
       </div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <h2>
+              <a href="#HOME">Home</a>
+            </h2>
+          </li>
+          <li>
+            <h2>
+              <a href="#PROJECTS">Projects</a>
+            </h2>
+          </li>
+          <li>
+            <h2>
+              <a href="#ABOUT">About</a>
+            </h2>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+  <div class="big-container">
 
 <!-- ICI UNE PREMIERE VUE -->
-        <section class="vue">
+    <section class="vue" id="HOME">
 
-          <div class="background">
-            <div class="intro">
-              <div class="je-suis">
-                <h1>I'm Tanguy,</h1>
-              </div>
-
-              <div class="je-travail">
-                <h1> <del> Product Owner, Consultant </del> </h1>
-              </div>
-
-              <div class="je-suis">
-                <h1>Product Designer</h1>
-              </div>
-            </div>
-          </div>
-          <div id="PROJECTS">
+      <div class="background">
+        <div class="intro">
+          <div class="je-suis">
+            <h1>I'm Tanguy,</h1>
           </div>
 
-        </section>
+          <div class="je-travail">
+            <h1> <del> Product Owner, Consultant </del> </h1>
+          </div>
+
+          <div class="je-suis">
+            <h1>Product Designer</h1>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
         <!-- ICI UNE SECONDE VUE -->
 
-        <section class="vue">
-          <div class="section-title">
-            <h1>Projects</h1>
+    <section class="vue" id="PROJECTS">
+
+      <div class="section-title">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects">
+
+        <a href="./Sub HTML/matematch.html">
+          <div class="project">
+            <div class="project-title">
+              <h2>Matematch</h2>
+            </div>
+
+            <div class="project-content">
+              <img class="project-picture" src="./Photos/Matematch.avif" alt="">
+            </div>
           </div>
-        <div class="projects">
+        </a>
 
-          <a href="./Sub HTML/matematch.html">
-            <div class="project">
-              <div class="project-title">
-                <h2>Matematch</h2>
-              </div>
-
-              <div class="project-content">
-                <img class="project-picture" src="./Photos/Matematch.avif" alt="">
-              </div>
+        <a href="./Sub HTML/rallye.html">
+          <div class="project">
+            <div class="project-title">
+              <h2>Rallye</h2>
             </div>
-          </a>
 
-          <a href="./Sub HTML/rallye.html">
-            <div class="project">
-              <div class="project-title">
-                <h2>Rallye</h2>
-              </div>
-
-              <div class="project-content">
-                <img class="project-picture" src="https://images.unsplash.com/photo-1584415942461-0b87dda9cc2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="">
-              </div>
+            <div class="project-content">
+              <img class="project-picture" src="https://images.unsplash.com/photo-1584415942461-0b87dda9cc2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="">
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a href="./Sub HTML/400coop.html">
-            <div class="project">
-              <div class="project-title">
-                <h2>Les 400 Coop</h2>
-              </div>
-
-              <div class="project-content">
-                <img class="project-picture" src="https://les400coop.fr/wp-content/uploads/2018/09/bcadd679b485a91c2d5f8f63274a8d27.jpg" alt="">
-              </div>
+        <a href="./Sub HTML/400coop.html">
+          <div class="project">
+            <div class="project-title">
+              <h2>Les 400 Coop</h2>
             </div>
-          </a>
-        </div>
-        <div id="ABOUT">
-        </div>
-      </section>
+
+            <div class="project-content">
+              <img class="project-picture" src="https://les400coop.fr/wp-content/uploads/2018/09/bcadd679b485a91c2d5f8f63274a8d27.jpg" alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="ABOUT">
+      </div>
+    </section>
 
 <!-- ICI UNE TROISIEME VUE -->
 
-      <section class="vue bot">
+      <section class="vue bot" id="ABOUT">
         <div class="about">
           <div class="section-title">
             <h1>About</h1>
@@ -169,7 +201,7 @@
                 <div class="skills-description">
                   <p>
                     <ul>
-                      <li>Front end : Intégration HTML, CSS</li>
+                      <li>Front end : HTML, CSS ntegration</li>
                       <li>Back end : Ruby on rails</li>
                       <li>Data analytics : Python</li>
                     </ul>
@@ -213,4 +245,6 @@
     </div>
   </body>
 
-  </html>
+  <script src="./script.js"></script>
+
+</html>
