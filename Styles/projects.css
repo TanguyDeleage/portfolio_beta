@@ -54,7 +54,7 @@ transition: transform .2s;
 }
 
 .background-coop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/Photos/400coop-background.avif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/Photos/400coop-background.avif");
   background-position: bottom;
 }
 
