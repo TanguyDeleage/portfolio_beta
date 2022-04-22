@@ -79,6 +79,7 @@ transition: transform .2s;
 
 .project-section-dual-content>img {
   max-width: 95%;
+  max-height: 95%;
 }
 
 .project-section-mono-content{

@@ -41,20 +41,6 @@ body {
   height: 100vh;
 }
 
-.bot {
-  height: 82vh;
-}
-
-.skills {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
-
-.skills-text {
-  justify-content: flex-end;
-}
 
 .footer {
   display: flex;
@@ -67,22 +53,6 @@ body {
   text-align: center;
 }
 
-.skills-title {
-  text-align: left;
-}
-
-
-.skills-section {
-  height: 36vh;
-  width: 50vh;
-  border-radius: 0.3rem;
-  text-align: justify;
-}
-
-.section-title {
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-}
 
 #HOME {
   scroll-margin-top: 10rem;
@@ -94,4 +64,28 @@ body {
 
 #ABOUT {
   scroll-margin-top: -10rem;
+}
+
+.me-description {
+  display: flex;
+  width: 70%;
+  text-align: justify;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-section-contents {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+
+.portfolio-section-dual-content {
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
