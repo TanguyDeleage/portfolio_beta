@@ -39,6 +39,7 @@ body {
 
 .vue {
   height: 100vh;
+  /* height: calc(100vh - 6rem); */
 }
 
 
@@ -66,6 +67,10 @@ body {
   scroll-margin-top: -10rem;
 }
 
+#CONTACT {
+  scroll-margin-top: 7rem;
+}
+
 .me-description {
   display: flex;
   width: 70%;
@@ -85,7 +90,15 @@ body {
   width: 50%;
   height: 50rem;
   display: flex;
+}
+
+.about {
   justify-content: center;
+  align-items: flex-start;
+}
+
+.skills {
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
