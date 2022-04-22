@@ -53,6 +53,11 @@ transition: transform .2s;
   background-position: center;
 }
 
+.background-coop {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/Photos/400coop-background.avif");
+  background-position: bottom;
+}
+
 .project-section-contents {
   display: flex;
   text-align: justify;
@@ -142,5 +147,32 @@ transition: transform .2s;
 
 .rallye-grey > p,
 .rallye-grey > h2 {
+  color: #F4F3EE;
+}
+
+.coop-green {
+  background-color: #6b705c
+}
+
+.coop-green > p,
+.coop-green > h2 {
+  color: #F4F3EE;
+}
+
+.coop-white {
+  background-color: #ffe8d6;
+}
+
+.coop-white > p,
+.coop-white > h2 {
+  color: #6b705c;
+}
+
+.coop-brown {
+  background-color: #cb997e;
+}
+
+.coop-brown > p,
+.coop-brown > h2 {
   color: #F4F3EE;
 }
