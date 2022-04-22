@@ -36,13 +36,21 @@ transition: transform .2s;
 }
 
 .background-projects {
-  background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url("/Photos/matematch-background.avif");
   background-size: cover;
-  background-position: bottom;
   height: 81vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.background-matematch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/Photos/matematch-background.avif");
+  background-position: bottom;
+}
+
+.background-rallye {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/Photos/rallye-background.avif");
+  background-position: center;
 }
 
 .project-section-contents {
@@ -108,4 +116,31 @@ transition: transform .2s;
 .matematch-green > p,
 .matematch-green > h2{
   color: #FDF7F1;
+}
+
+.rallye-green {
+  background-color: #3B5B4C;
+}
+
+.rallye-green > p,
+.rallye-green > h2 {
+  color: #F4F3EE;
+}
+
+.rallye-white {
+  background-color: #FFEFD8;
+}
+
+.rallye-white > p,
+.rallye-white > h2 {
+  color: #3B5B4C;
+}
+
+.rallye-grey {
+  background-color: rgb(50, 50, 50);
+}
+
+.rallye-grey > p,
+.rallye-grey > h2 {
+  color: #F4F3EE;
 }
