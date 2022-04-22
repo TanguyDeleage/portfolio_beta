@@ -18,8 +18,8 @@
 /* NAV TEST */
 
 .navbar_container {
-  padding: 0 20px;
-  height: 85px;
+  padding: 0 1rem;
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -37,6 +37,16 @@
 .navbar {
  display: flex;
   align-items: center;
+}
+
+.logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  padding-right: 1rem;
 }
 
 .navbar ul {
