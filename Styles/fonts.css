@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 /* COULEUR DE TEXTE */
 
@@ -59,4 +59,8 @@ p {
 
 .section-title h1 {
   color: #2f495f;
+}
+
+.projects h2{
+  color: #FFFCF1;
 }

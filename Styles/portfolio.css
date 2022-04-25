@@ -59,7 +59,7 @@ body {
 }
 
 #ABOUT {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 4rem;
   margin-top: 5rem;
 }
 
@@ -154,23 +154,19 @@ body {
 
 .presentation {
   width: 70%;
+  display: flex;
+  align-items: center;
 }
 
 .story  {
   padding: 0 10rem;
   text-align: justify;
-  height: 85%;
 }
 
-.contact {
-  padding: 0 10rem;
-  display: flex;
-  height: 15%;
-  justify-content: space-between;
-}
 
 .skills {
   width: 30%;
+  padding: 1rem;
 }
 
 .skills li {
@@ -185,6 +181,7 @@ body {
 .management {
   background-color: #9fb8b0;
   border-radius: 0.3rem;
+
 }
 
 .tech {

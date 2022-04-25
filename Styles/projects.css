@@ -31,11 +31,13 @@ transition: transform .2s;
 .project-page-title > h1 {
   text-align: center;
   margin: 0;
+  color: #FFFCF1;
 }
 
 .project-page-title > p {
   text-align: justify;
   margin: 2rem 20rem;
+  color: #FFFCF1;
 }
 
 .background-projects {
@@ -47,17 +49,15 @@ transition: transform .2s;
 }
 
 .background-matematch {
-  background-color: #FFFCF1;
+  background-color: #E9D5BE;
 }
 
 .background-rallye {
-  background-color: #FFFCF1;
+  background-color: #B6A495;
 }
 
 .background-coop {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/Photos/400coop-background.avif");
-  background-position: bottom; */
-  background-color: #FFFCF1;
+  background-color: #9FB8B0;
 }
 
 .project-section-contents {
@@ -82,6 +82,8 @@ transition: transform .2s;
 .project-section-dual-content>img {
   max-width: 95%;
   max-height: 95%;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
 }
 
 .project-section-mono-content{
@@ -109,10 +111,18 @@ transition: transform .2s;
 
 
 .project-white {
-  background-color: #E9D5BE;
+  background-color: #FFFCF1;
 }
 .project-white > p,
 .project-white > h2 {
+  color: #B6A495;
+}
+
+.project-almond {
+  background-color: #E9D5BE;
+}
+.project-almond>p,
+.project-almond>h2 {
   color: #FFFCF1;
 }
 
@@ -123,63 +133,4 @@ transition: transform .2s;
 .project-green > p,
 .project-green > h2{
   color: #FFFCF1;
-}
-
-
-
-
-
-
-.rallye-green {
-  background-color: #3B5B4C;
-}
-
-.rallye-green > p,
-.rallye-green > h2 {
-  color: #F4F3EE;
-}
-
-.rallye-white {
-  background-color: #FFEFD8;
-}
-
-.rallye-white > p,
-.rallye-white > h2 {
-  color: #3B5B4C;
-}
-
-.rallye-grey {
-  background-color: rgb(50, 50, 50);
-}
-
-.rallye-grey > p,
-.rallye-grey > h2 {
-  color: #F4F3EE;
-}
-
-.coop-green {
-  background-color: #6b705c
-}
-
-.coop-green > p,
-.coop-green > h2 {
-  color: #F4F3EE;
-}
-
-.coop-white {
-  background-color: #ffe8d6;
-}
-
-.coop-white > p,
-.coop-white > h2 {
-  color: #6b705c;
-}
-
-.coop-brown {
-  background-color: #cb997e;
-}
-
-.coop-brown > p,
-.coop-brown > h2 {
-  color: #F4F3EE;
 }
