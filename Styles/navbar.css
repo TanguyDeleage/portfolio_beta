@@ -24,8 +24,8 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: rgb(50, 50, 50);
-  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+  background-color: #6D514D;
+  box-shadow: 0 2px 4px 0 rgba(109, 81, 77, 0.2);
   z-index: 99999;
 }
 
@@ -76,16 +76,4 @@
   right: 0;
   height: 100vh;
   z-index: 999;
-}
-
-.mobile-menu a {
-  display: block;
-}
-
-.mobile-menu a:hover{
-  background-color: white;
-}
-
-.hide {
-  display: none;
 }

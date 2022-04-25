@@ -6,14 +6,19 @@
 
 /* COULEUR DE TEXTE */
 
-h1, h2, h3, h4, p, a, li {
-  color: rgb(255, 255, 255);
+h1, h2, h3, h4, a, li {
+  color: black;
   font-family: 'Poppins'
 }
 
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+p {
+  color: black;
+  font-family: 'Poppins'
 }
 
 

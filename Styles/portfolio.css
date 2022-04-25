@@ -30,9 +30,9 @@ body {
 }
 
 .background {
-  background-image: url("https://images.unsplash.com/photo-1497170675097-81fc06e915da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+  background-image: url("/Photos/moi.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 85vh;
 }
 
@@ -106,4 +106,58 @@ body {
 
 .contact-photo img{
  max-height: 70vh;
+}
+
+
+.test-project {
+  width: 90vw;
+  height: 25vh;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.test-project-title {
+  height: 30vh;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.matematch {
+  background-color: #E9D5BE;
+}
+
+.rallye {
+  background-color: #B6A495;
+}
+
+.coop {
+  background-color: #9FB8B0;
+}
+
+.test-project-title h2 {
+ padding: 1rem;
+}
+
+.test-project-content{
+  height: 30vh;
+  width: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.project-matematch {
+  background-image: url("/Photos/matematch-mockup.png");
+}
+
+.project-rallye {
+  background-image: url("/Photos/matematch-mockup.png");
+}
+
+.project-coop {
+  background-image: url("/Photos/matematch-mockup.png");
 }

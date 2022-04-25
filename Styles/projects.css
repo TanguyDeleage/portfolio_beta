@@ -14,9 +14,12 @@ transition: transform .2s;
 
 .projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
+
+
+
 
 .project-content>.project-picture {
   width: 30vw;
