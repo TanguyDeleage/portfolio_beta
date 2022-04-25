@@ -43,3 +43,20 @@ p {
 .je-suis, .je-travail > h1 {
   font-size: 2.5rem;
 }
+
+
+.je-suis h1 {
+  color: #FFFCF1;
+}
+
+.navbar a {
+  color: #FFFCF1;
+}
+
+.logo h1 {
+  color: #FFFCF1;
+}
+
+.section-title h1 {
+  color: #2f495f;
+}

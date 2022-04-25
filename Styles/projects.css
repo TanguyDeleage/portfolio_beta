@@ -40,25 +40,24 @@ transition: transform .2s;
 
 .background-projects {
   background-size: cover;
-  height: 81vh;
+  height: 65vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .background-matematch {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/Photos/matematch-background.avif");
-  background-position: bottom;
+  background-color: #FFFCF1;
 }
 
 .background-rallye {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/Photos/rallye-background.avif");
-  background-position: center;
+  background-color: #FFFCF1;
 }
 
 .background-coop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/Photos/400coop-background.avif");
-  background-position: bottom;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/Photos/400coop-background.avif");
+  background-position: bottom; */
+  background-color: #FFFCF1;
 }
 
 .project-section-contents {
@@ -69,7 +68,7 @@ transition: transform .2s;
 
 .project-section-dual-content {
   width: 50%;
-  height:35rem;
+  height:40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,32 +99,36 @@ transition: transform .2s;
   text-align: center;
 }
 
-.matematch-brown {
-  background-color: #E3A96D;
+.project-brown {
+  background-color: #B6A495;
+}
+.project-brown > p,
+.project-brown > h2{
+  color: #FFFCF1;
 }
 
-.matematch-white {
-  background-color: #FDF7F1;
+
+.project-white {
+  background-color: #E9D5BE;
+}
+.project-white > p,
+.project-white > h2 {
+  color: #FFFCF1;
 }
 
-.matematch-green {
-  background-color: #638475;
+
+.project-green {
+  background-color: #9FB8B0;
+}
+.project-green > p,
+.project-green > h2{
+  color: #FFFCF1;
 }
 
-.matematch-white > p,
-.matematch-white > h2 {
-  color: #E3A96D;
-}
 
-.matematch-brown > p,
-.matematch-brown > h2{
-  color: #FDF7F1;
-}
 
-.matematch-green > p,
-.matematch-green > h2{
-  color: #FDF7F1;
-}
+
+
 
 .rallye-green {
   background-color: #3B5B4C;

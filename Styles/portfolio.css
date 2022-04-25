@@ -95,14 +95,14 @@ body {
 
 
 .test-project {
-  width: 90vw;
-  height: 25vh;
+  width: 75vw;
+  height: 35vh;
   display: flex;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .test-project-title {
-  height: 30vh;
+  height: 35vh;
   width: 25%;
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ body {
 }
 
 .test-project-content{
-  height: 30vh;
+  height: 35vh;
   width: 75%;
   background-position: center;
   background-repeat: no-repeat;
