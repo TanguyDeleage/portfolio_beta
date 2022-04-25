@@ -38,6 +38,7 @@ body {
 
 
 .vue {
+  /* Cette partie sera a dégager ou modifier */
   height: 100vh;
   /* height: calc(100vh - 6rem); */
 }
@@ -88,17 +89,21 @@ body {
 
 .portfolio-section-dual-content {
   width: 50%;
-  height: 50rem;
   display: flex;
 }
 
 .about {
   justify-content: center;
   align-items: flex-start;
+  padding: 0 5rem;
 }
 
 .skills {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+}
+
+.contact-photo img{
+ max-height: 70vh;
 }
