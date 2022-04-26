@@ -85,7 +85,7 @@ body {
   background-color: #E9D5BE;
 }
 .project-matematch {
-  background-image: url("../img/miniature-matematch.png");
+  background-image: linear-gradient(rgba(233, 213, 190, 0.30), rgba(233, 213, 190, 0.30)), url("../img/miniature-matematch.png");
 }
 
 /* ---------------------SOUS PARTIE PROJET => RALLYE */
