@@ -19,29 +19,11 @@ body {
   padding: 3rem;
 }
 
-
-
-.menu-options {
-  display: flex;
-  align-items: flex-end;
-  width: 25rem;
-  justify-content: space-between;
-  /* ici */
-}
-
 .background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/Photos/moi.jpg");
   background-size: cover;
   background-position: bottom;
   height: 90vh;
-}
-
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 2rem;
-  flex-wrap: wrap;
 }
 
 .project-title {
@@ -61,47 +43,17 @@ body {
 #ABOUT {
   scroll-margin-top: 4rem;
   margin-top: 5rem;
+  height: 80vh;
 }
 
-.me-description {
-  display: flex;
-  width: 70%;
-  text-align: justify;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio-section-contents {
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-}
-
-.portfolio-section-dual-content {
-  width: 50%;
-  display: flex;
-}
-
-.about {
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0 5rem;
-}
-
-.contact-photo img{
- max-height: 70vh;
-}
-
-
-.test-project {
+.project {
   width: 75vw;
   height: 35vh;
   display: flex;
   margin: 3rem 0;
 }
 
-.test-project-title {
+.project-title {
   height: 35vh;
   width: 25%;
   display: flex;
@@ -122,11 +74,11 @@ body {
   background-color: #9FB8B0;
 }
 
-.test-project-title h2 {
+.project-title h2 {
  padding: 1rem;
 }
 
-.test-project-content{
+.project-content{
   height: 35vh;
   width: 75%;
   background-position: left;
@@ -166,7 +118,6 @@ body {
 
 .skills {
   width: 30%;
-  padding: 1rem;
 }
 
 .skills li {
@@ -175,26 +126,36 @@ body {
 }
 
 .skills ul {
+  padding-inline-start: 0;
+}
+
+.skills ul, h4 {
   margin: 0;
+  text-align: center;
 }
 
 .management {
   background-color: #9fb8b0;
   border-radius: 0.3rem;
-
+  padding: 0.5rem 1rem;
+  margin: 1.5rem;
 }
 
 .tech {
   background-color: #b6a495;
   border-radius: 0.3rem;
-  height: 22vh;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem;
 }
 
 .design {
   border-radius: 0.3rem;
   background-color: #e9d5be;
-  height: 20vh;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem;
 }
+
+
 
 
 .page-footer {

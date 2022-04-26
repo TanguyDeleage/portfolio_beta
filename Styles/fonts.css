@@ -64,3 +64,13 @@ p {
 .projects h2{
   color: #FFFCF1;
 }
+.story p {
+  color: #2f495f;
+}
+.skills h4 {
+  color: #FFFCF1;
+}
+
+.skills li {
+  color: #2f495f;
+}
