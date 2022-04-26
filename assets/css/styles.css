@@ -2,6 +2,7 @@
 @import url('/assets/css/colors.css');
 @import url('/assets/css/fonts.css');
 @import url('/assets/css/projects.css');
+/* @import url('/assets/css/navbar.css'); */
 @import url('/assets/css/navbar.css');
 
 
@@ -22,7 +23,8 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/moi.jpg");
   background-size: cover;
   background-position: bottom;
   height: 90vh;
