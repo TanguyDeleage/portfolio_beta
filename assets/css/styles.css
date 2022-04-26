@@ -1,8 +1,8 @@
 
-@import url('/Styles/colors.css');
-@import url('/Styles/fonts.css');
-@import url('/Styles/projects.css');
-@import url('/Styles/navbar.css');
+@import url('/assets/css/colors.css');
+@import url('/assets/css/fonts.css');
+@import url('/assets/css/projects.css');
+@import url('/assets/css/navbar.css');
 
 
 
@@ -22,7 +22,7 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/Photos/moi.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg");
   background-size: cover;
   background-position: bottom;
   height: 90vh;
@@ -83,7 +83,7 @@ body {
   background-color: #E9D5BE;
 }
 .project-matematch {
-  background-image: url("/Photos/miniature-matematch.png");
+  background-image: url("/assets/img/miniature-matematch.png");
 }
 
 /* ---------------------SOUS PARTIE PROJET => RALLYE */
@@ -92,7 +92,7 @@ body {
   background-color: #B6A495;
 }
 .project-rallye {
-  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("/Photos/miniature-rallye.png");
+  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("/assets/img/miniature-rallye.png");
 }
 
 
@@ -102,7 +102,7 @@ body {
   background-color: #9FB8B0;
 }
 .project-coop {
-  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("/Photos/miniature-coop.png");
+  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("/assets/img/miniature-coop.png");
 }
 
 /* VUE NUMERO 3 = ABOUT */
