@@ -1,44 +1,4 @@
-/* MATEMATCH */
-.design > img {
-  height: 40vh;
-}
-
-
-.project{
-transition: transform .2s;
-}
-.project:hover {
-  transform: scale(1.05);
-}
-
-
-.projects {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-
-
-.project-content>.project-picture {
-  width: 30vw;
-  height: 50vh;
-  object-fit: cover;
-  border-radius: 0.3rem;
-}
-
-.project-page-title > h1 {
-  text-align: center;
-  margin: 0;
-  color: #FFFCF1;
-}
-
-.project-page-title > p {
-  text-align: justify;
-  margin: 2rem 20rem;
-  color: #FFFCF1;
-}
+/* GLOBAL PROJETS */
 
 .background-projects {
   background-size: cover;
@@ -48,34 +8,59 @@ transition: transform .2s;
   align-items: center;
 }
 
-.background-matematch {
-  background-color: #E9D5BE;
+.project-content>.project-picture {
+  width: 30vw;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 0.3rem;
 }
 
-.background-rallye {
-  background-color: #B6A495;
+.project-page-title>h1 {
+  text-align: center;
+  margin: 0;
+  color: #FFFCF1;
 }
 
-.background-coop {
-  background-color: #9FB8B0;
+.project-page-title>p {
+  text-align: justify;
+  margin: 2rem 20rem;
+  color: #FFFCF1;
 }
 
+/* -----------(1) PROJECT CONTENT */
 .project-section-contents {
   display: flex;
   text-align: justify;
   justify-content: center;
 }
 
-.project-section-dual-content {
-  width: 50%;
-  height:40rem;
+/* -----------(2) PROJECT CONTENT MONO */
+.project-section-mono-content {
+  height: 25rem;
+  text-align: justify;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.project-section-dual-content > p {
+.project-section-mono-content>p,
+.project-section-mono-content>h2 {
+  width: 60%;
+  text-align: center;
+}
+
+/* -----------(3) PROJECT CONTENT DUAL */
+.project-section-dual-content {
+  width: 50%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-section-dual-content>p {
   padding: 0 8rem;
 }
 
@@ -86,51 +71,32 @@ transition: transform .2s;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
 }
 
-.project-section-mono-content{
-  height:25rem;
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
-.project-section-mono-content > p,
-.project-section-mono-content > h2{
-  width: 60%;
-  text-align: center;
-}
-
-.project-brown {
-  background-color: #B6A495;
-}
-.project-brown > p,
-.project-brown > h2{
-  color: #FFFCF1;
-}
-
-
-.project-white {
-  background-color: #FFFCF1;
-}
-.project-white > p,
-.project-white > h2 {
-  color: #B6A495;
-}
-
-.project-almond {
+/* MATEMATCH */
+.background-matematch {
   background-color: #E9D5BE;
 }
-.project-almond>p,
-.project-almond>h2 {
-  color: #FFFCF1;
+
+
+
+
+/* RALLYE */
+.background-rallye {
+  background-color: #B6A495;
 }
 
 
-.project-green {
+
+/* COOP */
+.background-coop {
   background-color: #9FB8B0;
 }
-.project-green > p,
-.project-green > h2{
-  color: #FFFCF1;
+
+
+
+.project{
+transition: transform .2s;
+}
+.project:hover {
+  transform: scale(1.05);
 }

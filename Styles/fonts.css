@@ -2,47 +2,60 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
-/* COULEUR DE TEXTE */
 
-h1, h2, h3, h4, a, li {
-  color: black;
+/* FONT FAMILY */
+
+h1, h2, h3, h4, a, li, p {
   font-family: 'Poppins'
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
-p {
-  color: black;
-  font-family: 'Poppins'
-}
-
-
-.skills-description li {
-  color: rgb(150, 150, 150);
-  font-family: 'Poppins';
+li {
   list-style-type: none;
-  margin-left: -0.5rem;
+  text-align: left;
 }
 
-.skills-title li {
-  font-family: 'Poppins';
-  list-style-type: none;
-  margin-left: -0.5rem;
-}
+
+
 
 
 /* SIZE */
 
-/* Sur la home page, présentation */
-
 .je-suis, .je-travail > h1 {
   font-size: 2.5rem;
 }
+
+
+/* FONT COLORS */
+
+.project-brown>p,
+.project-brown>h2 {
+  color: #FFFCF1;
+}
+
+
+
+.project-white>p,
+.project-white>h2 {
+  color: #B6A495;
+}
+
+
+.project-almond>p,
+.project-almond>h2 {
+  color: #FFFCF1;
+}
+
+
+.project-green>p,
+.project-green>h2 {
+  color: #FFFCF1;
+}
+
 
 
 .je-suis h1 {
@@ -61,12 +74,14 @@ p {
   color: #2f495f;
 }
 
-.projects h2{
+.projects h2 {
   color: #FFFCF1;
 }
+
 .story p {
   color: #2f495f;
 }
+
 .skills h4 {
   color: #FFFCF1;
 }

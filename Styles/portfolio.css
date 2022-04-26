@@ -6,17 +6,19 @@
 
 
 
-/* MARGIN */
+/* GENERAL */
 .big-container {
   margin: 0rem 1rem 0rem 1rem;
 }
-
 body {
   margin: 0;
 }
 
-.intro {
-  padding: 3rem;
+
+/* VUE NUMERO 1 = HOME */
+
+#HOME {
+  scroll-margin-top: 10rem;
 }
 
 .background {
@@ -26,24 +28,26 @@ body {
   height: 90vh;
 }
 
-.project-title {
-  text-align: center;
+.intro {
+  padding: 3rem;
 }
 
 
-#HOME {
-  scroll-margin-top: 10rem;
-}
+/* VUE NUMERO 2 = PROJECTS */
 
 #PROJECTS {
   scroll-margin-top: 7rem;
   margin-top: 4rem;
 }
 
-#ABOUT {
-  scroll-margin-top: 4rem;
-  margin-top: 5rem;
-  height: 80vh;
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  text-align: center;
 }
 
 .project {
@@ -61,24 +65,11 @@ body {
   justify-content: center;
   border-radius: 0.3rem 0 0 0.3rem;
 }
-
-.matematch {
-  background-color: #E9D5BE;
-}
-
-.rallye {
-  background-color: #B6A495;
-}
-
-.coop {
-  background-color: #9FB8B0;
-}
-
 .project-title h2 {
- padding: 1rem;
+  padding: 1rem;
 }
 
-.project-content{
+.project-content {
   height: 35vh;
   width: 75%;
   background-position: left;
@@ -87,16 +78,39 @@ body {
   border-radius: 0 0.3rem 0.3rem 0;
 }
 
+/* ---------------------SOUS PARTIE PROJET => MATEMATCH */
+.matematch {
+  background-color: #E9D5BE;
+}
 .project-matematch {
   background-image: url("/Photos/miniature-matematch.png");
 }
 
+/* ---------------------SOUS PARTIE PROJET => RALLYE */
+
+.rallye {
+  background-color: #B6A495;
+}
 .project-rallye {
   background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("/Photos/miniature-rallye.png");
 }
 
+
+/* ---------------------SOUS PARTIE PROJET => COOP */
+
+.coop {
+  background-color: #9FB8B0;
+}
 .project-coop {
   background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("/Photos/miniature-coop.png");
+}
+
+/* VUE NUMERO 3 = ABOUT */
+
+#ABOUT {
+  scroll-margin-top: 4rem;
+  margin-top: 5rem;
+  height: 80vh;
 }
 
 .about-section{
@@ -115,21 +129,16 @@ body {
   text-align: justify;
 }
 
-
 .skills {
   width: 30%;
-}
-
-.skills li {
-  list-style-type: none;
-  text-align: left;
 }
 
 .skills ul {
   padding-inline-start: 0;
 }
 
-.skills ul, h4 {
+.skills ul,
+h4 {
   margin: 0;
   text-align: center;
 }
@@ -156,7 +165,7 @@ body {
 }
 
 
-
+/* FOOTER */
 
 .page-footer {
   width: 100%;

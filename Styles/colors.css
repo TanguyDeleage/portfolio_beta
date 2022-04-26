@@ -1,13 +1,37 @@
 
+/* MON THEME DE COULEURS */
+/*
+BROWN #B6A495
+ALMOND #E9D5BE
+WHITE #FFFCF1
+BLUE #2f495f
+BLUE/GREEN #9FB8B0
+
+RED #6D514D;
+*/
+
+
+
 /* COULEUR DE BACKGROUND */
 body {
   background-color: #FFFCF1;
 }
 
-/* RED #6D514D; */
-/* BROWN #B6A495 */
-/* ALMOND/LIGHT BROWN #E9D5BE */
-/* WHITE #FFFCF1 */
-/* BLUE 2f495f Il faut choisir entre le red et le blue selon l'image de fond*/
 
-/* BLUE/GREEN #9FB8B0 */
+/* COULEURS DE PROJETS */
+
+.project-brown {
+  background-color: #B6A495;
+}
+
+.project-white {
+  background-color: #FFFCF1;
+}
+
+.project-almond {
+  background-color: #E9D5BE;
+}
+
+.project-green {
+  background-color: #9FB8B0;
+}
