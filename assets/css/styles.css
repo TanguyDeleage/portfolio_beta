@@ -94,7 +94,7 @@ body {
   background-color: #B6A495;
 }
 .project-rallye {
-  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("/assets/img/miniature-rallye.png");
+  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("../img/miniature-rallye.png");
 }
 
 
@@ -104,7 +104,7 @@ body {
   background-color: #9FB8B0;
 }
 .project-coop {
-  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("/assets/img/miniature-coop.png");
+  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("../img/miniature-coop.png");
 }
 
 /* VUE NUMERO 3 = ABOUT */
