@@ -129,22 +129,22 @@ body {
 .test-project-content{
   height: 35vh;
   width: 75%;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0.3rem 0.3rem 0;
 }
 
 .project-matematch {
-  background-image: url("/Photos/matematch-mockup.png");
+  background-image: url("/Photos/miniature-matematch.png");
 }
 
 .project-rallye {
-  background-image: url("/Photos/matematch-mockup.png");
+  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("/Photos/miniature-rallye.png");
 }
 
 .project-coop {
-  background-image: url("/Photos/matematch-mockup.png");
+  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("/Photos/miniature-coop.png");
 }
 
 .about-section{
