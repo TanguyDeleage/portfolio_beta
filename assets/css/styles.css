@@ -85,7 +85,7 @@ body {
   background-color: #E9D5BE;
 }
 .project-matematch {
-  background-image: url("/assets/img/miniature-matematch.png");
+  background-image: url("../img/miniature-matematch.png");
 }
 
 /* ---------------------SOUS PARTIE PROJET => RALLYE */
