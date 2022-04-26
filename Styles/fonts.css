@@ -89,3 +89,16 @@ li {
 .skills li {
   color: #2f495f;
 }
+
+/*  HOVER */
+.navbar_container a :hover{
+  color: hsl(208, 34%, 35%);
+}
+
+.navbar a:hover {
+  color: hsl(208, 34%, 35%);
+}
+
+.page-footer a:hover {
+  color: hsl(208, 34%, 35%);
+}
