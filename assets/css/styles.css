@@ -112,12 +112,13 @@ body {
 #ABOUT {
   scroll-margin-top: 4rem;
   margin-top: 5rem;
-  height: 80vh;
+  height: auto;
 }
 
 .about-section{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .presentation {
@@ -127,7 +128,7 @@ body {
 }
 
 .story  {
-  padding: 0 10rem;
+  padding: 0 12vw;
   text-align: justify;
 }
 
@@ -149,21 +150,21 @@ h4 {
   background-color: #9fb8b0;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  margin: 1.5rem;
+  margin-bottom: 2vh;
 }
 
 .tech {
   background-color: #b6a495;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  margin: 1.5rem;
+  margin-bottom: 2vh;
 }
 
 .design {
   border-radius: 0.3rem;
   background-color: #e9d5be;
   padding: 0.5rem 1rem;
-  margin: 1.5rem;
+  margin-bottom: 15vh;
 }
 
 
