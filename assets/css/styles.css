@@ -53,32 +53,34 @@ body {
 }
 
 .project {
-  width: 75vw;
+  width: 70vw;
   height: 35vh;
   display: flex;
   margin: 3rem 0;
+  flex-direction: column;
 }
 
 .project-title {
-  height: 35vh;
-  width: 25%;
+  height: 10vh;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.3rem 0 0 0.3rem;
+  border-radius: 0.3rem 0.3rem 0 0;
 }
 .project-title h2 {
   padding: 1rem;
 }
 
 .project-content {
-  height: 35vh;
-  width: 75%;
+  height: 30vh;
+  width: auto;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0 0.3rem 0.3rem 0;
+  border-radius: 0 0 0.3rem 0.3rem;
 }
+
 
 /* ---------------------SOUS PARTIE PROJET => MATEMATCH */
 .matematch {
