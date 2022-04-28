@@ -92,13 +92,13 @@ li {
 
 /*  HOVER */
 .navbar_container a :hover{
-  color: hsl(208, 34%, 35%);
+  color: hsl(212deg 34% 48%);
 }
 
 .navbar a:hover {
-  color: hsl(208, 34%, 35%);
+  color: hsl(212deg 34% 48%);
 }
 
 .page-footer a:hover {
-  color: hsl(208, 34%, 35%);
+  color: hsl(212deg 34% 48%);
 }
