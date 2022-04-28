@@ -44,6 +44,7 @@
 /* -----------(2) PROJECT CONTENT MONO */
 .project-section-mono-content {
   height: inherit;
+  min-height: 35vh;
   text-align: justify;
   display: flex;
   justify-content: center;
@@ -65,6 +66,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 2vh 0;
 }
 
 .project-section-dual-content>p {
