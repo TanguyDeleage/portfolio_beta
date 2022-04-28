@@ -11,6 +11,7 @@
   background-color: #2F495F;
   box-shadow: 0 2px 4px 0 rgba(47, 73, 95, 0.2);
   z-index: 99999;
+  width: auto;
 }
 
 .navbar {
