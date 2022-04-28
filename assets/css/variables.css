@@ -1,0 +1,18 @@
+:root {
+
+  /* ===== Colors ====== */
+  --body-color: #FFFCF1;
+  --main-color: #223347;
+  --seconday-color-light: #EBCCAA;
+  --secondary-color: #B2947B;
+  --tertiary-color: #86B8A8;
+  --possible-other-main-color: #663C36;
+
+
+  /* ===== Fonts and Typography ======== */
+  --body-font: "Poppins", sans-serif;
+
+  /* ==== Height ======= */
+  --header-height: 4rem;
+  --footer-height: 4rem;
+}

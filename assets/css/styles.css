@@ -1,20 +1,39 @@
+/* ====== GOOGLE FONTS =========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap');
 
+/* ===== COMPONENTS DESIGN ======== */
 @import url('colors.css');
 @import url('fonts.css');
 @import url('projects.css');
-/* @import url('/assets/css/navbar.css'); */
 @import url('navbar.css');
+@import url('variables.css');
+
+/* ======== BASE =========== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+  margin: 0 0 calc(var(--header-height)+var(--footer-height)) 0;
+}
+
+
+
+
 
 
 
 /* GENERAL */
 .big-container {
-  margin: 0rem 1rem 0rem 1rem;
+  padding: 0 1rem;
 }
-body {
-  margin: 0;
-}
-
 
 /* VUE NUMERO 1 = HOME */
 
