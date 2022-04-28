@@ -84,7 +84,7 @@ body {
 
 /* ---------------------SOUS PARTIE PROJET => MATEMATCH */
 .matematch {
-  background-color: #E9D5BE;
+  background-color: #EBCCAA;
 }
 .project-matematch {
   background-image: linear-gradient(rgba(233, 213, 190, 0.30), rgba(233, 213, 190, 0.30)), url("../img/miniature-matematch.png");
@@ -93,7 +93,7 @@ body {
 /* ---------------------SOUS PARTIE PROJET => RALLYE */
 
 .rallye {
-  background-color: #B6A495;
+  background-color: #B2947B;
 }
 .project-rallye {
   background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("../img/miniature-rallye.png");
@@ -103,7 +103,7 @@ body {
 /* ---------------------SOUS PARTIE PROJET => COOP */
 
 .coop {
-  background-color: #9FB8B0;
+  background-color: #86B8A8;
 }
 .project-coop {
   background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("../img/miniature-coop.png");
@@ -149,14 +149,14 @@ h4 {
 }
 
 .management {
-  background-color: #9fb8b0;
+  background-color: #86B8A8;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   margin-bottom: 2vh;
 }
 
 .tech {
-  background-color: #b6a495;
+  background-color: #B2947B;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   margin-bottom: 2vh;
@@ -164,7 +164,7 @@ h4 {
 
 .design {
   border-radius: 0.3rem;
-  background-color: #e9d5be;
+  background-color: #EBCCAA;
   padding: 0.5rem 1rem;
   margin-bottom: 15vh;
 }
@@ -174,7 +174,7 @@ h4 {
 
 .page-footer {
   width: 100%;
-  background-color: #2f495f;
+  background-color: #223347;
   height: 8vh;
   display: flex;
   justify-content: space-evenly;
@@ -184,9 +184,4 @@ h4 {
 .page-footer a {
   color: #FFFCF1;
   font-weight: bold;
-}
-
-.here {
-  background-color: red;
-  font-weight: bolder;
 }

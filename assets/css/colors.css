@@ -1,16 +1,4 @@
 
-/* MON THEME DE COULEURS */
-/*
-BROWN #B6A495
-ALMOND #E9D5BE
-WHITE #FFFCF1
-BLUE #2f495f
-BLUE/GREEN #9FB8B0
-
-RED #6D514D;
-*/
-
-
 
 /* COULEUR DE BACKGROUND */
 body {
@@ -21,7 +9,7 @@ body {
 /* COULEURS DE PROJETS */
 
 .project-brown {
-  background-color: #B6A495;
+  background-color: #B2947B;
 }
 
 .project-white {
@@ -29,9 +17,15 @@ body {
 }
 
 .project-almond {
-  background-color: #E9D5BE;
+  background-color: #EBCCAA;
 }
 
 .project-green {
-  background-color: #9FB8B0;
+  background-color: #86B8A8;
 }
+
+
+
+/* ANCIENNE COULEURS
+BROWN #B6A495 ALMOND #EBCCAA WHITE #FFFCF1 BLUE #2f495f BLUE/GREEN #86B8A8 RED #6D514D;
+*/
