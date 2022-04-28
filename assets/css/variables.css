@@ -8,6 +8,10 @@
   --tertiary-color: #86B8A8;
   --possible-other-main-color: #663C36;
 
+  --title-color: #FFFCF1;
+  /* --text-color;
+  --text-color-light; */
+
 
   /* ===== Fonts and Typography ======== */
   --body-font: "Poppins", sans-serif;
@@ -15,4 +19,9 @@
   /* ==== Height ======= */
   --header-height: 4rem;
   --footer-height: 4rem;
+
+
+  /* ====== Font Weight ======= */
+  --font-semi-bold: 600;
+  --font-medium: 500;
 }

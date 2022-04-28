@@ -22,9 +22,13 @@ body {
   font-family: var(--body-font);
   background-color: var(--body-color);
   margin: 0 0 calc(var(--header-height)+var(--footer-height)) 0;
+  /* color à definir pour les polices */
 }
 
-
+h1, h2, h3, h4 {
+  font-weight: var(--font-semi-bold);
+  /* color: var(--title-color); Pose actuellement problème dans la partie projets sur fond blanc*/
+}
 
 
 
