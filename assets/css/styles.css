@@ -31,6 +31,65 @@ h1, h2, h3, h4 {
 }
 
 
+/* =============LAYOUT ============================= */
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+
+/* ============== MEDIA QUERIES ================== */
+/* Small Devices */
+@media screen and (max-width: 350px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .presentation {
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
+/* Medium Devices */
+@media screen and (min-width: 568px) {
+  .projects {
+  grid-template-columns: 1fr 1fr;
+  }
+  .presentation {
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Medium + Devices */
+@media screen and (min-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .presentation {
+    grid-template-columns: 1fr 2fr;
+  }
+  .skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Large Devices */
+@media screen and (min-width: 1024px) {
+  .projects {
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .presentation {
+    grid-template-columns: 1fr 2fr;
+  }
+  .skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 
 
 
@@ -38,6 +97,7 @@ h1, h2, h3, h4 {
 .big-container {
   padding: 0 1rem;
 }
+
 
 /* VUE NUMERO 1 = HOME */
 
@@ -65,22 +125,9 @@ h1, h2, h3, h4 {
   margin-top: 4rem;
 }
 
-.projects {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
 .project-title {
   text-align: center;
-}
-
-.project {
-  width: 70vw;
-  height: 35vh;
-  display: flex;
-  margin: 3rem 0;
-  flex-direction: column;
 }
 
 .project-title {
@@ -140,25 +187,9 @@ h1, h2, h3, h4 {
   height: auto;
 }
 
-.about-section{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.presentation {
-  width: 70%;
-  display: flex;
-  align-items: center;
-}
-
 .story  {
-  padding: 0 12vw;
+  padding: 0 5rem;
   text-align: justify;
-}
-
-.skills {
-  width: 30%;
 }
 
 .skills ul {
@@ -171,25 +202,40 @@ h4 {
   text-align: center;
 }
 
-.management {
-  background-color: #86B8A8;
+.skills{
+  margin-bottom: 2rem;
+}
+
+.skill {
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  margin-bottom: 2vh;
+}
+
+.photo-presentation {
+  align-content: center;
+  display: grid;
+}
+
+.photo-presentation img{
+    height: auto;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.presentation {
+  margin-bottom: 5rem;
+}
+
+.management {
+  background-color: #86B8A8;
 }
 
 .tech {
   background-color: #B2947B;
-  border-radius: 0.3rem;
-  padding: 0.5rem 1rem;
-  margin-bottom: 2vh;
 }
 
 .design {
-  border-radius: 0.3rem;
   background-color: #EBCCAA;
-  padding: 0.5rem 1rem;
-  margin-bottom: 15vh;
 }
 
 

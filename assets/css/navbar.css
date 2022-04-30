@@ -19,7 +19,6 @@
 
 
 .navbar ul {
-  display: table;
   list-style: none;
   height: 100%;
   display: flex;
@@ -30,8 +29,8 @@
 .navbar ul li {
   display: table-cell;
   position: relative;
-  padding: 5px;
-  margin-left: 5rem;
+  padding: 0 2.5rem;
+
 }
 
 .brand {
