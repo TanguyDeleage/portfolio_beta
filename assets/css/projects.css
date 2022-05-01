@@ -67,6 +67,6 @@
 
 .background-brown,
 .background-almond,
-.background-green > p, ul, li {
+.background-green > p {
   color: var(--seconday-color-light);
 }
