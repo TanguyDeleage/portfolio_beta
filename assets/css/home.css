@@ -81,7 +81,8 @@
 }
 
 .project-content-main {
-  /* height: 60vh; */
+  height: 30vh;
+  /* Les media queries sont prioritaires, cette valeur ne s'applique que pour la zone non courverte des media queries */
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
@@ -90,7 +91,7 @@
 }
 
 .project-content-minus {
-  /* height: calc(50vh / 2 - 0.5rem); */
+  height: 30vh;
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
