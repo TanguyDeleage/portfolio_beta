@@ -3,8 +3,9 @@
   /* ===== Colors ====== */
   --body-color: #FFFCF1;
   --main-color: #223347;
-  --seconday-color-light: #EBCCAA;
-  --secondary-color: #B2947B;
+  --seconday-color-light: #FFFCF1;
+  --secondary-color: #EBCCAA;
+  --secondary-color-dark: #B2947B;
   --tertiary-color: #86B8A8;
   --possible-other-main-color: #663C36;
 

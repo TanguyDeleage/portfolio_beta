@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap');
 
 /* ===== COMPONENTS DESIGN ======== */
-@import url('colors.css');
 @import url('fonts.css');
 @import url('projects.css');
 @import url('navbar.css');
@@ -37,7 +36,6 @@ h1, h2, h3, h4 {
   grid-gap: 1rem;
 }
 
-
 /* ============== MEDIA QUERIES ================== */
 /* Small Devices */
 @media screen and (max-width: 350px) {
@@ -50,6 +48,16 @@ h1, h2, h3, h4 {
   .skills {
     grid-template-columns: 1fr;
   }
+  .project-duo {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .project-mono {
+    grid-template-columns: 1fr;
+    display: grid;
+    height: 45vh;
+  }
 }
 /* Medium Devices */
 @media screen and (min-width: 568px) {
@@ -61,6 +69,15 @@ h1, h2, h3, h4 {
   }
   .skills {
     grid-template-columns: 1fr 1fr;
+  }
+  .project-duo {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .project-mono {
+    grid-template-columns: 1fr;
+    display: grid;
   }
 }
 
@@ -75,6 +92,16 @@ h1, h2, h3, h4 {
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .project-duo {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .project-mono {
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 5rem 10rem;
+  }
 }
 
 /* Large Devices */
@@ -87,6 +114,16 @@ h1, h2, h3, h4 {
   }
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .project-duo {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .project-mono {
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 5rem 20rem;
   }
 }
 
@@ -219,7 +256,7 @@ h4 {
 .photo-presentation img{
     height: auto;
     width: 100%;
-    padding-bottom: 1rem;
+    border-radius: 0.3rem;
 }
 
 .presentation {

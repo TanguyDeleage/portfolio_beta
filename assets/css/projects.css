@@ -1,106 +1,3 @@
-/* GLOBAL PROJETS */
-
-.background-projects {
-  background-size: cover;
-  height: 65vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-content>.project-picture {
-  width: 30vw;
-  height: 50vh;
-  object-fit: cover;
-  border-radius: 0.3rem;
-}
-
-.project-page-title>h1 {
-  text-align: center;
-  margin: 0;
-  color: #FFFCF1;
-}
-
-.project-page-title>p {
-  text-align: justify;
-  margin: 4vh 20vw;
-  color: #FFFCF1;
-}
-
-/* -----------(1) PROJECT CONTENT */
-.project-section-contents {
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: auto;
-  width: auto;
-}
-
-.vid {
-  max-width: 95%;
-  border-radius: 0.3rem;
-}
-/* -----------(2) PROJECT CONTENT MONO */
-.project-section-mono-content {
-  height: inherit;
-  min-height: 45vh;
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.project-section-mono-content>p,
-.project-section-mono-content>h2 {
-  width: 60vw;
-  text-align: center;
-}
-
-/* -----------(3) PROJECT CONTENT DUAL */
-.project-section-dual-content {
-  width: max(50%, min(49vw, 100%));
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2vh 0;
-}
-
-.project-section-dual-content>p {
-  padding: 0 8vw;
-}
-
-.project-section-dual-content>img {
-  max-width: 95%;
-  max-height: 95%;
-  border-radius: 0.3rem;
-  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
-}
-
-
-/* MATEMATCH */
-.background-matematch {
-  background-color: #EBCCAA;
-}
-
-
-
-
-/* RALLYE */
-.background-rallye {
-  background-color: #B6A495;
-}
-
-
-
-/* COOP */
-.background-coop {
-  background-color: #9FB8B0;
-}
-
 
 
 .project{
@@ -108,4 +5,63 @@ transition: transform .2s;
 }
 .project:hover {
   transform: scale(1.05);
+}
+
+
+
+.project-card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.project-card video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.project-card {
+  padding: 5rem;
+  text-align: justify;
+  text-align-last: center;
+}
+
+
+.background-brown {
+  background-color: var(--secondary-color-dark);
+}
+
+.background-white {
+  background-color: var(--seconday-color-light);
+}
+
+.background-almond {
+  background-color: var(--secondary-color);
+}
+
+.background-green {
+  background-color: var(--tertiary-color);
+}
+
+.background-white > h2 {
+  color: var(--secondary-color-dark);
+}
+
+.background-brown,
+.background-almond,
+.background-green > h2 {
+  color: var(--seconday-color-light);
+}
+
+.background-white> p {
+  color: var(--secondary-color-dark);
+}
+
+.background-brown,
+.background-almond,
+.background-green> p {
+  color: var(--seconday-color-light);
 }
