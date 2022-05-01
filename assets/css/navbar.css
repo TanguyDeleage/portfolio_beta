@@ -6,8 +6,6 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
-  /* background-color: #6D514D; */
-  /* box-shadow: 0 2px 4px 0 rgba(109, 81, 77, 0.2); */
   background-color: #223347;
   box-shadow: 0 2px 4px 0 rgba(47, 73, 95, 0.2);
   z-index: 99999;
@@ -21,7 +19,6 @@
 
 
 .navbar ul {
-  display: table;
   list-style: none;
   height: 100%;
   display: flex;
@@ -32,11 +29,20 @@
 .navbar ul li {
   display: table-cell;
   position: relative;
-  padding: 5px;
-  margin-left: 5rem;
+  padding: 0 2.5rem;
+
 }
 
 .brand {
   display: flex;
   align-items: center;
+}
+
+
+.navbar_container a :hover {
+  color: hsl(212deg 34% 48%);
+}
+
+.navbar a:hover {
+  color: hsl(212deg 34% 48%);
 }
