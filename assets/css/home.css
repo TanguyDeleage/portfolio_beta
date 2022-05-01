@@ -101,19 +101,42 @@
 
 .project-main {
   border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
 }
 
 .project-2 {
   border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
 }
 
 .project-3 {
   border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
 }
 
 
 .projects{
   margin-bottom: 10rem;
+}
+
+.background-matematch {
+  background-image: url(/assets/img/matematch-mockup.png);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-rallye {
+  background-image: url(/assets/img/miniature-rallye.png);
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-coop {
+  background-image: url(/assets/img/miniature-coop.png);
+  background-position-y: top;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
