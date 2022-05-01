@@ -63,7 +63,7 @@
 
 
 .top-projects {
-  height: 70vh;
+  height: auto;
   width: 85vw;
   margin: 0 auto;
   grid-gap: 1rem;
@@ -81,7 +81,7 @@
 }
 
 .project-content-main {
-  height: 80%;
+  height: 60vh;
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
@@ -90,12 +90,12 @@
 }
 
 .project-content-minus {
-  height: 80%;
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0.3rem 0.3rem;
+  height: calc(50vh / 2 - 0.5rem);
 }
 
 .project-main {
