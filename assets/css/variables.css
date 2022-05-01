@@ -1,0 +1,33 @@
+:root {
+
+  /* ===== Colors ====== */
+  --body-color: #FFFCF1;
+  --main-color: #223347;
+  --seconday-color-light: #FFFCF1;
+  --secondary-color: #EBCCAA;
+  --secondary-color-dark: #B2947B;
+  --tertiary-color: #86B8A8;
+  --possible-other-main-color: #663C36;
+
+  --title-color: #FFFCF1;
+  /* --text-color;
+  --text-color-light; */
+
+
+  /* ===== Fonts and Typography ======== */
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+
+  /* ==== Height ======= */
+  --header-height: 4rem;
+  --footer-height: 4rem;
+
+
+  /* ====== Font Weight ======= */
+  --font-semi-bold: 600;
+  --font-medium: 500;
+}
