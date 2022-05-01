@@ -81,7 +81,7 @@
 }
 
 .project-content-main {
-  height: 60vh;
+  /* height: 60vh; */
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
@@ -90,12 +90,12 @@
 }
 
 .project-content-minus {
+  /* height: calc(50vh / 2 - 0.5rem); */
   width: auto;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0.3rem 0.3rem;
-  height: calc(50vh / 2 - 0.5rem);
 }
 
 .project-main {

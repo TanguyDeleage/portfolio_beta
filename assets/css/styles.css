@@ -70,6 +70,12 @@ p, li{
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
   }
+  .project-content-main {
+    height: 30vh;
+  }
+  .project-content-minus {
+    height: 30vh;
+  }
   .presentation {
     grid-template-columns: 1fr;
   }
@@ -95,6 +101,12 @@ p, li{
   .top-projects {
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
+  }
+  .project-content-main {
+    height: 30vh;
+  }
+  .project-content-minus {
+    height: 30vh;
   }
   .presentation {
     grid-template-columns: 1fr;
@@ -124,6 +136,12 @@ p, li{
   }
   .project-main {
     grid-area: 1 / 1 / 3 / 3;
+  }
+  .project-content-main {
+    height: 60vh;
+  }
+  .project-content-minus {
+    height: calc(50vh / 2 - 0.5rem);
   }
   .project-2 {
     grid-area: 1 / 3 / 2 / 4;
@@ -160,6 +178,12 @@ p, li{
   }
   .project-main {
     grid-area: 1 / 1 / 3 / 3;
+  }
+  .project-content-main {
+    height: 60vh;
+  }
+  .project-content-minus {
+    height: calc(50vh / 2 - 0.5rem);
   }
   .project-2 {
     grid-area: 1 / 3 / 2 / 4;
