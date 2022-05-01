@@ -120,19 +120,19 @@
 }
 
 .background-matematch {
-  background-image: linear-gradient(rgba(235, 204, 170, 0.3), rgba(235, 204, 170, 0.3)), url(/assets/img/matematch-mockup.png);
+  background-image: linear-gradient(rgba(235, 204, 170, 0.3), rgba(235, 204, 170, 0.3)), url(../img/matematch-mockup.png);
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background-rallye {
-  background-image: linear-gradient(rgba(178, 148, 123, 0.3), rgba(178, 148, 123, 0.3)),url(/assets/img/miniature-rallye.png);
+  background-image: linear-gradient(rgba(178, 148, 123, 0.3), rgba(178, 148, 123, 0.3)),url(../img/miniature-rallye.png);
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background-coop {
-  background-image: linear-gradient(rgba(134, 184, 168, 0.3), rgba(134, 184, 168, 0.3)),url(/assets/img/miniature-coop.png);
+  background-image: linear-gradient(rgba(134, 184, 168, 0.3), rgba(134, 184, 168, 0.3)),url(../img/miniature-coop.png);
   background-position-y: top;
   background-position-x: center;
   background-repeat: no-repeat;
