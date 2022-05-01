@@ -141,13 +141,30 @@
 
 
 
-.project {
+.project-main {
   transition: transform .2s;
 }
 
-.project:hover {
+.project-main:hover {
   transform: scale(1.05);
 }
+
+.project-2 {
+  transition: transform .2s;
+}
+
+.project-2:hover {
+  transform: scale(1.05);
+}
+
+.project-3 {
+  transition: transform .2s;
+}
+
+.project-3:hover {
+  transform: scale(1.05);
+}
+
 
 /* ================== Page 3 ===================== */
 
