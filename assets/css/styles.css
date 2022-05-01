@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap');
 
 /* ===== COMPONENTS DESIGN ======== */
-@import url('fonts.css');
+@import url('footer.css');
 @import url('projects.css');
 @import url('navbar.css');
 @import url('variables.css');
+@import url('home.css');
 
 /* ======== BASE =========== */
 
@@ -24,11 +25,34 @@ body {
   /* color à definir pour les polices */
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-weight: var(--font-semi-bold);
-  /* color: var(--title-color); Pose actuellement problème dans la partie projets sur fond blanc*/
+  color: var(--title-color);
 }
 
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  text-align: left;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  margin: 0 auto;
+}
+
+p, li{
+  font-size: var(--normal-font-size);
+}
 
 /* =============LAYOUT ============================= */
 .grid {
@@ -109,6 +133,10 @@ h1, h2, h3, h4 {
   .projects {
   grid-template-columns: 1fr 1fr 1fr;
   }
+  .top-projects {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
   .presentation {
     grid-template-columns: 1fr 2fr;
   }
@@ -127,167 +155,14 @@ h1, h2, h3, h4 {
   }
 }
 
-
-
-
-/* GENERAL */
-.big-container {
-  padding: 0 1rem;
+/* ============ SCROLL BAR ================ */
+/* ::-webkit-scrollbar {
+  width: 1rem;
+  background-color: var(--secondary-color-light);
+  border-radius: .5rem;
 }
 
-
-/* VUE NUMERO 1 = HOME */
-
-#HOME {
-  scroll-margin-top: 10rem;
-}
-
-.background {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg"); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/moi.jpg");
-  background-size: cover;
-  background-position: bottom;
-  height: 90vh;
-}
-
-.intro {
-  padding: 3rem;
-}
-
-
-/* VUE NUMERO 2 = PROJECTS */
-
-#PROJECTS {
-  scroll-margin-top: 7rem;
-  margin-top: 4rem;
-}
-
-
-.project-title {
-  text-align: center;
-}
-
-.project-title {
-  height: 10vh;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.3rem 0.3rem 0 0;
-}
-.project-title h2 {
-  padding: 1rem;
-}
-
-.project-content {
-  height: 30vh;
-  width: auto;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 0 0.3rem 0.3rem;
-}
-
-
-/* ---------------------SOUS PARTIE PROJET => MATEMATCH */
-.matematch {
-  background-color: #EBCCAA;
-}
-.project-matematch {
-  background-image: linear-gradient(rgba(233, 213, 190, 0.30), rgba(233, 213, 190, 0.30)), url("../img/miniature-matematch.png");
-}
-
-/* ---------------------SOUS PARTIE PROJET => RALLYE */
-
-.rallye {
-  background-color: #B2947B;
-}
-.project-rallye {
-  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("../img/miniature-rallye.png");
-}
-
-
-/* ---------------------SOUS PARTIE PROJET => COOP */
-
-.coop {
-  background-color: #86B8A8;
-}
-.project-coop {
-  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("../img/miniature-coop.png");
-}
-
-/* VUE NUMERO 3 = ABOUT */
-
-#ABOUT {
-  scroll-margin-top: 4rem;
-  margin-top: 5rem;
-  height: auto;
-}
-
-.story  {
-  padding: 0 5rem;
-  text-align: justify;
-}
-
-.skills ul {
-  padding-inline-start: 0;
-}
-
-.skills ul,
-h4 {
-  margin: 0;
-  text-align: center;
-}
-
-.skills{
-  margin-bottom: 2rem;
-}
-
-.skill {
-  border-radius: 0.3rem;
-  padding: 0.5rem 1rem;
-}
-
-.photo-presentation {
-  align-content: center;
-  display: grid;
-}
-
-.photo-presentation img{
-    height: auto;
-    width: 100%;
-    border-radius: 0.3rem;
-}
-
-.presentation {
-  margin-bottom: 5rem;
-}
-
-.management {
-  background-color: #86B8A8;
-}
-
-.tech {
-  background-color: #B2947B;
-}
-
-.design {
-  background-color: #EBCCAA;
-}
-
-
-/* FOOTER */
-
-.page-footer {
-  width: 100%;
-  background-color: #223347;
-  height: 8vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.page-footer a {
-  color: #FFFCF1;
-  font-weight: bold;
-}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: .5rem;
+} */

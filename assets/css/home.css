@@ -1,0 +1,204 @@
+/* ============== GENERAL ================= */
+.big-container {
+  padding: 0 1rem 1rem 1rem;
+}
+
+/* ============ SCROLL ==================== */
+
+#HOME {
+  scroll-margin-top: 10rem;
+}
+#PROJECTS {
+  scroll-margin-top: 7rem;
+  margin-top: 4rem;
+}
+
+#ABOUT {
+  scroll-margin-top: 4rem;
+  margin-top: 5rem;
+  height: auto;
+}
+
+
+/* ========== Header ================ */
+.navbar_container h2{
+  font-size: var(--h2-font-size);
+  color: var(--seconday-color-light);
+}
+
+.je-suis h1 {
+  font-size: var(--big-font-size);
+}
+
+.section-title h2{
+  text-align: center;
+  color: black;
+  font-size: var(--h2-font-size);
+}
+
+
+
+
+
+/* =============== Page 1 =================== */
+
+
+
+.background {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/moi.jpg");
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 90vh;
+  font-size: var(--big-font-size);
+}
+
+.intro {
+  padding: 3rem;
+}
+
+
+/* =============== Page 2 =================== */
+
+
+.project-title {
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+  text-align: center;
+  font-size: var(--h3-font-size)
+}
+
+/* .project-content {
+  height: 30vh;
+  width: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0.3rem 0.3rem;
+} */
+
+.project-content-main {
+  height: 80%;
+  width: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.project-content-minus {
+  height: 80%;
+  width: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.projects{
+  margin-bottom: 10rem;
+}
+
+.matematch {
+  background-color: #EBCCAA;
+}
+.project-matematch {
+  background-image: linear-gradient(rgba(233, 213, 190, 0.30), rgba(233, 213, 190, 0.30)), url("../img/matematch-mockup.png");
+}
+
+
+.rallye {
+  background-color: #B2947B;
+}
+.project-rallye {
+  background-image: linear-gradient(rgba(182, 164, 149, 0.30), rgba(182, 164, 149, 0.30)), url("../img/miniature-rallye.png");
+}
+
+
+.coop {
+  background-color: #86B8A8;
+}
+.project-coop {
+  background-image: linear-gradient(rgba(159, 184, 176, 0.30), rgba(159, 184, 176, 0.30)), url("../img/miniature-coop.png");
+}
+
+
+.project {
+  transition: transform .2s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+/* ================== Page 3 ===================== */
+
+
+.story {
+  padding: 0 5rem;
+  text-align: justify;
+}
+
+.photo-presentation {
+  align-content: center;
+  display: grid;
+}
+
+.presentation {
+  margin-bottom: 2rem;
+}
+
+
+.skill {
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.skills h3 {
+  margin: 0;
+  text-align: center;
+  font-size: var(--h3-font-size)
+}
+
+.management {
+  background-color: #86B8A8;
+}
+
+.tech {
+  background-color: #B2947B;
+}
+
+.design {
+  background-color: #EBCCAA;
+}
+
+
+.top-projects {
+  height: 70vh;
+  width: 85vw;
+  margin: 0 auto;
+  grid-gap: 1rem;
+}
+
+.project-main {
+  grid-area: 1 / 1 / 3 / 3;
+  background-color: #EBCCAA;
+  border-radius: 0.3rem;
+}
+
+.project-2 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: #B2947B;
+  border-radius: 0.3rem;
+}
+
+.project-3 {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: #86B8A8;
+  border-radius: 0.3rem;
+}

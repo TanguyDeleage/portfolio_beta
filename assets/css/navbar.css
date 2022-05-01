@@ -37,3 +37,12 @@
   display: flex;
   align-items: center;
 }
+
+
+.navbar_container a :hover {
+  color: hsl(212deg 34% 48%);
+}
+
+.navbar a:hover {
+  color: hsl(212deg 34% 48%);
+}
