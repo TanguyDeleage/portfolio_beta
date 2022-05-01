@@ -1,0 +1,200 @@
+/* ============== GENERAL ================= */
+.big-container {
+  padding: 0 1rem 1rem 1rem;
+}
+
+/* ============ SCROLL ==================== */
+
+#HOME {
+  scroll-margin-top: 10rem;
+}
+#PROJECTS {
+  scroll-margin-top: 7rem;
+  margin-top: 4rem;
+}
+
+#ABOUT {
+  scroll-margin-top: 4rem;
+  margin-top: 5rem;
+  height: auto;
+}
+
+
+/* ========== Header ================ */
+.navbar_container h2{
+  font-size: var(--h2-font-size);
+  color: var(--seconday-color-light);
+}
+
+.je-suis h1 {
+  font-size: var(--big-font-size);
+}
+
+.section-title h2{
+  text-align: center;
+  color: black;
+  font-size: var(--h2-font-size);
+}
+
+
+
+
+
+/* =============== Page 1 =================== */
+
+
+
+.background {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("/assets/img/moi.jpg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/moi.jpg");
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 90vh;
+  font-size: var(--big-font-size);
+}
+
+.intro {
+  padding: 3rem;
+}
+
+
+/* =============== Page 2 =================== */
+
+
+.top-projects {
+  height: auto;
+  width: 85vw;
+  margin: 0 auto;
+  grid-gap: 1rem;
+}
+
+.project-title {
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+  text-align: center;
+  font-size: var(--h3-font-size)
+}
+
+.project-content-main {
+  height: 30vh;
+  /* Les media queries sont prioritaires, cette valeur ne s'applique que pour la zone non courverte des media queries */
+  width: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.project-content-minus {
+  height: 30vh;
+  width: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.project-main {
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
+}
+
+.project-2 {
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
+}
+
+.project-3 {
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px 0 rgb(47 73 95 / 40%);
+}
+
+
+.projects{
+  margin-bottom: 10rem;
+}
+
+.background-matematch {
+  background-image: linear-gradient(rgba(235, 204, 170, 0.3), rgba(235, 204, 170, 0.3)), url(../img/matematch-mockup.png);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-rallye {
+  background-image: linear-gradient(rgba(178, 148, 123, 0.3), rgba(178, 148, 123, 0.3)),url(../img/miniature-rallye.png);
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-coop {
+  background-image: linear-gradient(rgba(134, 184, 168, 0.3), rgba(134, 184, 168, 0.3)),url(../img/miniature-coop.png);
+  background-position-y: top;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.project-main {
+  transition: transform .2s;
+}
+
+.project-main:hover {
+  transform: scale(1.05);
+}
+
+.project-2 {
+  transition: transform .2s;
+}
+
+.project-2:hover {
+  transform: scale(1.05);
+}
+
+.project-3 {
+  transition: transform .2s;
+}
+
+.project-3:hover {
+  transform: scale(1.05);
+}
+
+
+/* ================== Page 3 ===================== */
+
+
+.story {
+  padding: 0 5rem;
+  text-align: justify;
+}
+
+.photo-presentation {
+  align-content: center;
+  display: grid;
+}
+
+.presentation {
+  margin-bottom: 2rem;
+}
+
+
+.skill {
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.skills h3 {
+  margin: 0;
+  text-align: center;
+  font-size: var(--h3-font-size)
+}
+
+.skills li {
+  color: black;
+}
