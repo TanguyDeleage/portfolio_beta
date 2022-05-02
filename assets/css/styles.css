@@ -62,7 +62,7 @@ p, li{
 
 /* ============== MEDIA QUERIES ================== */
 /* Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 568px) {
   .projects {
     grid-template-columns: 1fr;
   }
@@ -91,6 +91,9 @@ p, li{
     grid-template-columns: 1fr;
     display: grid;
     height: 45vh;
+  }
+  .navbar {
+    display: none;
   }
 }
 /* Medium Devices */
@@ -122,6 +125,9 @@ p, li{
   .project-mono {
     grid-template-columns: 1fr;
     display: grid;
+  }
+  .navbar {
+    display: none;
   }
 }
 
@@ -165,6 +171,10 @@ p, li{
     display: grid;
     padding: 5rem 10rem;
   }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* Large Devices */
@@ -206,6 +216,10 @@ p, li{
     grid-template-columns: 1fr;
     display: grid;
     padding: 5rem 20rem;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
   }
 }
 
