@@ -94,6 +94,9 @@ p, li{
   .navbar {
     display: none;
   }
+  .navbar_container {
+    justify-content: center;
+  }
 }
 /* Medium Devices */
 @media screen and (min-width: 568px) {
@@ -127,6 +130,9 @@ p, li{
   }
   .navbar {
     display: none;
+  }
+  .navbar_container {
+    justify-content: center;
   }
 }
 
@@ -174,6 +180,9 @@ p, li{
     display: flex;
     align-items: center;
   }
+  .navbar_container {
+    justify-content: space-between;
+  }
 }
 
 /* Large Devices */
@@ -219,6 +228,9 @@ p, li{
   .navbar {
     display: flex;
     align-items: center;
+  }
+  .navbar_container {
+    justify-content: space-between;
   }
 }
 
